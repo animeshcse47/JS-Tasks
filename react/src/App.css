@@ -1,0 +1,13 @@
+:root{--bg:#f6f7fb;--card:#fff;--accent:#2b6cb0}
+*{box-sizing:border-box}
+body,html,#root{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Arial}
+.app-root{min-height:100%;background:var(--bg);padding:24px}
+.app-header{max-width:1100px;margin:0 auto 16px}
+.app-header h1{margin:0;color:var(--accent)}
+.status{max-width:1100px;margin:24px auto;color:#333}
+.status.error{color:#a00}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;max-width:1100px;margin:0 auto}
+.card{background:var(--card);padding:12px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,0.08);display:flex;flex-direction:column;align-items:center;text-align:center}
+.card img{width:100%;height:140px;object-fit:contain;margin-bottom:8px}
+.title{font-size:13px;margin:0 0 8px;height:36px;overflow:hidden}
+.price{font-weight:700;color:var(--accent);margin:0}
